@@ -1,0 +1,50 @@
+{
+  "name": "down_to_meet",
+  "version": "1.0.0",
+  "description": "Down To Meet",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavna288/downToMeet.git"
+  },
+  "keywords": [
+    "Down",
+    "To",
+    "Meet"
+  ],
+  "author": "Bhavna Tahelyani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavna288/downToMeet/issues"
+  },
+  "homepage": "https://github.com/Bhavna288/downToMeet#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "json-loader": "^0.5.7",
+    "mongodb": "^3.6.2",
+    "node-sass-middleware": "^0.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.20.6",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
