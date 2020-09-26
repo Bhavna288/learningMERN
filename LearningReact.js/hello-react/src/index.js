@@ -2,22 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function Hello(props) {
-  console.log(Object.keys(props))
+const lakeList = ["Echo Lake", "Maud Lake", "Cascade Lake"];
+
+function App() {
   return (
     <div>
-      <h1>Welcome to {props.library}!!</h1>
-      <p>{props.message}</p>
-      <p>{props.number} Props Total</p>
+      Eventual Lakes
     </div>
   );
 }
 
 ReactDOM.render(
-  <Hello 
-    library="React" 
-    message="Have fun!!" 
-    number={3}
-  />,
+  <App />,
   document.getElementById('root')
 );
