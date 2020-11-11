@@ -16,7 +16,7 @@ var Message = mongoose.model('Message', {
 
 mongoose.Promise = Promise
 
-var dbUrl = 'mongodb+srv://bhavnatahelyani:bhavna288@learning-node.36qjc.azure.mongodb.net/learning-node?retryWrites=true&w=majority';
+var dbUrl = 'mongodb+srv://<username>:<password>@learning-node.36qjc.azure.mongodb.net/learning-node?retryWrites=true&w=majority';
 
 app.get('/messages', (req, resp) => {
     Message.find({}, (err, messages) => {
